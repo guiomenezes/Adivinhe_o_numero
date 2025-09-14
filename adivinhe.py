@@ -44,7 +44,7 @@ while palpite != num:
             cont += 1
             print('')
         if palpite == num:
-            console.print(f'[bold green]Parabens!O número [bold blue]{num}[/] é o sorteado.\nVocê acertou depois de [bold blue]{cont}[/] tentativas.[/]')
+            console.print(f'[bold green]Parabéns!O número [bold blue]{num}[/] é o sorteado.\nVocê acertou depois de [bold blue]{cont}[/] tentativas.[/]')
             break
     except ValueError:
         console.print('[bold red]CARÁCTER INVÁLIDO!')
